@@ -1,0 +1,194 @@
+/* General style */
+@font-face {
+    font-family: 'DIN-Regular';
+    src: url('fonts/DIN-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'DIN-Regular';
+    line-height: 24px;
+    font-size: 16px;
+}
+
+section {
+  min-height: 50vh;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.padded-div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.padded-top {
+  padding-top: 50px;
+}
+
+
+/* Text style */
+.large-text {
+  font-size: 24px;
+}
+
+.small-text {
+  font-size: 16px;
+}
+
+.dark-blue-text {
+  color: #9DB9D2;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.left-text {
+  margin-left: 10%;
+  width: 60%;
+}
+
+.right-text {
+  text-align: right;
+  margin-right: 10%;
+}
+
+
+/* Image style */
+.bettr-logo-lg {
+  display: block;
+  margin: auto;
+  width: 25%;
+  padding-top: 50px;
+}
+.bettr-logo-sm {
+  display: block;
+  margin: auto;
+  width: 10%;
+  padding-top: 10%;
+}
+
+.robo-img {
+  width: 100%;
+  height: 100%;
+}
+
+.proto {
+  position: absolute;
+  width: 200px;
+  right: 5%;
+}
+
+.team {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding-top: 50px
+}
+
+.right-align {
+  position: absolute;
+  right: 5%;
+}
+
+.left-align {
+  position: absolute;
+  left: 5%;
+}
+
+.center-align {
+  margin: auto;
+}
+
+.row {
+  padding-top: 15px;
+}
+
+
+/* Animation style */
+div.robo-container {
+  position: absolute;
+  width: 25%;
+  max-width: 250px;
+  margin: auto;
+}
+
+@media (max-width: 700px) {
+  div.robo-container {
+    display: none;
+  }
+}
+
+div.robo-shadow-container {
+  width: 50%;
+  margin: auto;
+}
+
+div.robo {
+  position: relative;
+  top: 0px;
+  margin: auto;
+  animation: robo-float ease 3s infinite;
+}
+
+@keyframes robo-float {
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+div.robo-shadow {
+  position: relative;
+  height: 10px;
+  background: #999;
+  opacity: 0.1;
+  border-radius: 100%;
+  top: 20px;
+  animation: shadow_react ease 3s infinite;
+}
+
+@keyframes shadow_react {
+  50% {
+    margin:0px 10% 0px 10%;
+    opacity:0.7;
+  }
+  100% {
+    margin:0px 0px 0px 0px;
+    opacity:0.1;
+  }
+}
+
+
+/* Section style */
+.intro-div {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.angled-gradient-1 {
+  background: linear-gradient(20deg, #B3CFE9, #86DDF2);
+}
+
+.angled-gradient-2 {
+  background: linear-gradient(340deg, #86DDF2, #B3CFE9);
+}
