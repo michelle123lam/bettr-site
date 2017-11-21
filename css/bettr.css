@@ -70,6 +70,17 @@ a:hover {
   margin-right: 10%;
 }
 
+.row {
+  padding-top: 15px;
+}
+
+@media (max-width: 700px) {
+  .left-text {
+    text-align: center;
+    margin: auto;
+  }
+}
+
 
 /* Image style */
 .bettr-logo-lg {
@@ -90,17 +101,21 @@ a:hover {
   height: 100%;
 }
 
-.proto {
-  position: absolute;
-  width: 200px;
-  right: 5%;
-}
-
 .team {
   display: block;
-  width: 50%;
   margin: auto;
-  padding-top: 50px
+  padding-top: 50px;
+}
+
+.team-block {
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  width: 15%;
+}
+
+.team-img {
+  width: 100%;
+  padding: 5px;
 }
 
 .right-align {
@@ -115,10 +130,6 @@ a:hover {
 
 .center-align {
   margin: auto;
-}
-
-.row {
-  padding-top: 15px;
 }
 
 
