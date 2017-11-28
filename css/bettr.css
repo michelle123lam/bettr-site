@@ -74,6 +74,10 @@ a:hover {
   padding-top: 15px;
 }
 
+.class-components {
+  padding-bottom: 25px;
+}
+
 @media (max-width: 700px) {
   .left-text {
     text-align: center;
@@ -110,7 +114,7 @@ a:hover {
 .team-block {
   display: inline-block;
   margin: 10px 10px 10px 10px;
-  width: 15%;
+  max-width: 15%;
 }
 
 .team-img {
@@ -197,7 +201,7 @@ div.robo-shadow {
 }
 
 .angled-gradient-1 {
-  background: linear-gradient(20deg, #B3CFE9, #86DDF2);
+  background: linear-gradient(20deg, #F4BB44, #FCD952);
 }
 
 .angled-gradient-2 {
